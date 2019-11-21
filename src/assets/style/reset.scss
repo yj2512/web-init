@@ -1,0 +1,39 @@
+
+@charset 'uft-8';
+/**
+  CSS初始化
+**/
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight: normal}
+p{word-wrap:break-word;}
+ul,li{list-style:none}
+button,input,select,textarea{padding: 0;margin: 0}
+img,embed,object,audio,video{height:auto;max-width:100%;border:none;}
+iframe{border:0}
+table{border-collapse:collapse;border-spacing:0}
+td,th{padding:0;text-align:left}
+a,a:hover,a:active,a:link,a:visited{ text-decoration: none;color: #2f2f2f;}
+input[type=button],
+input[type=submit], 
+input[type=file], 
+button { cursor: pointer; -webkit-appearance: none; } /*去除IOS系统按钮默认样式*/
+input[type=text],input[type=textarea]{outline: none;}
+html,body,*{
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+  font-weight:normal;
+  font: inherit;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;/*消除字体锯齿，清晰字体*/
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing:border-box;
+}
+
+img {
+    display: block;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display: block;
+}

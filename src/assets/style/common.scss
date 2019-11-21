@@ -1,0 +1,17 @@
+// 内容宽度
+#app{
+  min-width: $content-width;
+}
+.content-width{
+    width: $content-width;
+  }
+@media screen and (min-width: 1480px) {
+  #app{
+    min-width: $content-width2;
+  }
+  .content-width{
+    width: $content-width2;
+  }
+}
+
+// 组件库的样式修改
