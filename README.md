@@ -1,21 +1,18 @@
-# web-front
+1、说明
+  (1) 样式重置reset.scss会影响组件库, 可能会造成组件库样式混乱
 
-> A Vue.js project
+  (2) scss的安装 (不需要webpack的配置)
+      npm install node-sass --save-dev
+      npm install sass-loader --save-dev
 
-## Build Setup
+  (3) scss使用变量, 需要配置build/utils.js;
+  
+  (4) babel将 ES6 代码转为 ES5 代码, 默认只转换新的 JavaScript 句法，而不转换新的 API;
+      兼容IE需要babel-polyfill, webpack配置build/webpack.base.conf.js
 
-``` bash
-# install dependencies
-npm install
+2、插件
+  (1) 文件下载  FileSaver.js
+      https://github.com/eligrey/FileSaver.js
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+  (2) 图标  echarts 
+      https://www.echartsjs.com/zh/index.html

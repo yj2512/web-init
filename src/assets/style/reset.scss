@@ -28,11 +28,9 @@ html,body,*{
   -moz-osx-font-smoothing: grayscale;
   box-sizing:border-box;
 }
-html,body,h1,h2,h3,h4,h5,h6,p,ul,li{
+html,body,h1,h2,h3,h4,h5,h6,p,ul{
   margin: 0;
   padding: 0;
-  line-height: 1.5;
-  font: inherit
 }
 img {
     display: block;
